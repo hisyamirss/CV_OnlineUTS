@@ -1,0 +1,49 @@
+/* hobbies.css */
+.gallery-container {
+  padding: 20px; /* Padding untuk kontainer */
+  max-width: 400px; /* Atur lebar maksimum galeri */
+  margin: auto; /* Pusatkan kontainer */
+  text-align: center; /* Rata tengah teks */
+  font-family: 'Arial', sans-serif; /* Font yang digunakan */
+}
+
+.gallery-title {
+  font-size: 24px; /* Ukuran font judul */
+  margin-bottom: 20px; /* Jarak bawah judul */
+  color: #333; /* Warna teks judul */
+}
+
+.gallery {
+  display: grid; /* Menggunakan grid untuk tata letak */
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); /* Kolom responsif */
+  gap: 15px; /* Jarak antar kartu */
+}
+
+.gallery-card {
+  position: relative; /* Posisi relatif untuk caption */
+  overflow: hidden; /* Sembunyikan konten yang melampaui */
+  border-radius: 8px; /* Sudut melingkar untuk kartu */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Bayangan untuk kedalaman */
+  transition: transform 0.2s; /* Transisi untuk efek hover */
+}
+
+.gallery-card:hover {
+  transform: scale(1.05); /* Tambahkan efek zoom pada hover */
+}
+
+.gallery-image {
+  width: 100%; /* Lebar gambar penuh */
+  height: 100%; /* Tinggi gambar penuh */
+  object-fit: cover; /* Sesuaikan gambar agar tetap proporsional */
+}
+
+.gallery-caption {
+  position: absolute; /* Posisi absolut untuk teks caption */
+  bottom: 0; /* Tempatkan di bagian bawah */
+  width: 100%; /* Lebar penuh */
+  padding: 10px; /* Padding untuk teks caption */
+  background-color: rgba(0, 0, 0, 0.6); /* Latar belakang semi-transparan */
+  color: white; /* Warna teks putih */
+  text-align: center; /* Rata tengah teks caption */
+  font-size: 1em; /* Ukuran font untuk caption */
+}

@@ -1,0 +1,47 @@
+/* skills.css */
+.container {
+    max-width: 800px; /* Batasi lebar maksimum bagian keterampilan */
+    margin: 0 auto; /* Pusatkan kontainer */
+}
+
+.bg-white {
+    background-color: #fff; /* Pastikan latar belakang berwarna putih */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Bayangan halus untuk kedalaman */
+}
+
+h2 {
+    color: #4a5568; /* Warna teks untuk judul */
+}
+
+.mb-6 {
+    margin-bottom: 1.5rem; /* Jarak antar keterampilan */
+}
+
+.font-semibold {
+    font-weight: 600; /* Ketebalan font untuk nama keterampilan */
+}
+
+.text-gray-800 {
+    color: #2d3748; /* Warna teks yang lebih gelap untuk kontras */
+}
+
+.bg-gray-200 {
+    background-color: #edf2f7; /* Warna latar belakang untuk batang keterampilan */
+}
+
+.bg-blue-600 {
+    background-color: #3182ce; /* Warna biru untuk batang keterampilan */
+    transition: background-color 0.3s; /* Transisi warna pada hover */
+}
+
+.bg-blue-600:hover {
+    background-color: #2b6cb0; /* Warna biru yang lebih gelap saat hover */
+}
+
+.h-4 {
+    height: 1rem; /* Tinggi batang keterampilan */
+}
+
+.rounded-full {
+    border-radius: 9999px; /* Sudut melingkar penuh untuk batang keterampilan */
+}
